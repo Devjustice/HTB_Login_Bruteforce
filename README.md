@@ -26,8 +26,10 @@ for password in passwords:
 
 
 In some reason the ffuf did not worked out on this URL 
+```
 crunch 4 4 0123456789 -o 4-digits.txt
 ffuf -u "http://0.0.0.0.:00000/pin?pin=FUZZ" -w 4-digits.txt
+```
 
 They all have returned 401 error.
 
@@ -154,10 +156,11 @@ Proxy Rotation: Add proxies to requests.get() if the server bans IPs.
 Rate Limiting: Reduce max_workers if the server rejects requests (e.g., HTTP 429).
 
 Progress Tracking:
-
+```
 python
 if pin % 100 == 0:
     print(f"Progress: {pin}/10000", end="\r")
+```
 Performance Comparison
 Metric	Original Code	Enhanced Code (50 threads)
 Total Time	~16 minutes	~20 seconds
