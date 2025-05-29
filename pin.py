@@ -1,8 +1,8 @@
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-ip = "94.237.122.124"  # Target IP
-port = 36093           # Target port
+ip = "1.1.1.1"  # Target IP
+port = 11111           # Target port
 
 def get_password_list():
     try:
