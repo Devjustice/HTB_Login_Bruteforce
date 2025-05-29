@@ -84,4 +84,55 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-05-30 01:36:
 [STATUS] attack finished for 94.237.58.110 (waiting for children to complete tests)
 1 of 1 target successfully completed, 1 valid password found
 Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-05-30 01:37:01
+└──╼ $git clone https://github.com/urbanadventurer/username-anarchy.git
+Cloning into 'username-anarchy'...
+remote: Enumerating objects: 448, done.
+remote: Counting objects: 100% (62/62), done.
+remote: Compressing objects: 100% (49/49), done.
+remote: Total 448 (delta 29), reused 32 (delta 9), pack-reused 386 (from 1)
+Receiving objects: 100% (448/448), 16.79 MiB | 13.43 MiB/s, done.
+Resolving deltas: 100% (156/156), done.
+┌─[user@parrot]─[~/Downloads]
+└──╼ $ls
+2020-200_most_used_passwords.txt  username-anarchy
+2023-200_most_used_passwords.txt
+┌─[user@parrot]─[~/Downloads]
+└──╼ $cd username-anarchy
+┌─[user@parrot]─[~/Downloads/username-anarchy]
+└──╼ $l
+CHANGELOG.md       names/           test-names.txt
+debian/            README.md        username-anarchy*
+format-plugins.rb  test-names2.txt
+LICENSE            test-names3.txt
+┌─[user@parrot]─[~/Downloads/username-anarchy]
+└──╼ $ Jane Smith > jane_smith_usernames.txt
+bash: Jane: command not found
+┌─[✗]─[user@parrot]─[~/Downloads/username-anarchy]
+└──╼ $ ./username-anarchy Jane Smith > jane_smith_usernames.txt
+┌─[user@parrot]─[~/Downloads/username-anarchy]
+└──╼ $l
+CHANGELOG.md              LICENSE          test-names3.txt
+debian/                   names/           test-names.txt
+format-plugins.rb         README.md        username-anarchy*
+jane_smith_usernames.txt  test-names2.txt
+┌─[user@parrot]─[~/Downloads/username-anarchy]
+└──╼ $cat jane_smith_usernames.txt
+jane
+janesmith
+jane.smith
+janesmit
+janes
+j.smith
+jsmith
+sjane
+s.jane
+smithj
+smith
+smith.j
+smith.jane
+js
+
+
+
+
 
