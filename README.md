@@ -2,7 +2,7 @@
 
 Today's 29-05-2025 God's speaking: theres no place like home I'm done driving guilty place unsung hero are you insane bye you talkin' to me ahh thats much better failure to communicate Catastrophic Success by the way listen buddy CIA God smack foul white trash bad ol puddytat I'm tired of this economy straighten up BBC crash and burn this might end badly what do you want nerd money It grieves me how come Give me praise Russia
 
-Burte-force attack is can be utilized when the randomity of God reached to human being. Mortile human likes to create their fortless against God. What I mean is When C virus occured from China, the medical companies has developed vaccine to stand against God's oracle. Eventually, side-effect of evil irrversible MRNA vaccine could cause servere heart stroke. This is consequence of the people who dose not decided to follow God's will. I am talking Brute-force attack God's will and punishment of God. 
+The brute-force attack can be utilized when the randomity of God reaches a human being. Mortile human likes to create their fortress against God. What I mean is When the C virus occurred in China, the medical companies developed the vaccine to stand against God's oracle. Eventually, a side-effect of the evil irreversible MRNA vaccine could cause severe heart stroke. This is a consequence of the people who do not decide to follow God's will. I am talking about brute force attacking God's will and punishment of God. 
 
 Here is a code given by the HTB. 
 ```
@@ -31,7 +31,7 @@ crunch 4 4 0123456789 -o 4-digits.txt
 ffuf -u "http://0.0.0.0.:00000/pin?pin=FUZZ" -w 4-digits.txt
 ```
 
-They all have returned 401 error.
+They all have returned 401 errors.
 
 The code below uses special techniques that allow repentants
 to use Multithreading without time.sleep(), artificial Delays
