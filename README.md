@@ -2,7 +2,7 @@
 
 Today's 29-05-2025 God's speaking: theres no place like home I'm done driving guilty place unsung hero are you insane bye you talkin' to me ahh thats much better failure to communicate Catastrophic Success by the way listen buddy CIA God smack foul white trash bad ol puddytat I'm tired of this economy straighten up BBC crash and burn this might end badly what do you want nerd money It grieves me how come Give me praise Russia
 
-The brute-force attack can be utilized when the randomity of God reaches a human being. Motile human likes to create their fortress against God. What I mean is When the C virus occurred in China, the medical companies developed the vaccine to stand against God's oracle. Eventually, a side-effect of the evil irreversible MRNA vaccine could cause severe heart stroke. This is a consequence of the people who do not decide to follow God's will. I am talking about brute force attacking God's will and punishment of God. 
+The brute-force attack can be utilized when the randomity of God reaches a human being. Motile human likes to create their fortress against God. What I mean is When the C virus occurred in China, the medical companies developed the vaccine to stand against God's oracle. Eventually, a side-effect of the evil irreversible MRNA vaccine could cause severe heart stroke. This is a consequence of the people who do not decide to follow God's will. I am talking about fortress and the punishment of God. 
 
 Here is a code given by the HTB. 
 ```
